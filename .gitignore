@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# CodeGraph (índice local por máquina)
+.codegraph/
+.codegraph-*/
+
+# Logs
+*.log
+
+# local env files
+.env*
+!.env.example
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
